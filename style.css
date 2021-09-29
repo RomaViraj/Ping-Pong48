@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.resetButton {
+  width:40px;
+  height:40px;
+  background-image: url('reset.png');
+  background-size: cover;
+  border-radius: 30px;
+  display: inline-block;
+  cursor:pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
